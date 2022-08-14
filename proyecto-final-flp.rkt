@@ -430,7 +430,7 @@
                                      (ambiente-extendido-recursivo procnames idss cuerpos amb)))
       
       (set-exp (id exp)
-               (eopl:error"no se pede usar")
+               (eopl:error"no se puede usar el set aqui")
                )
       (begin-exp (exp lexp)
                  (if
