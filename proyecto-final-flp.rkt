@@ -391,6 +391,8 @@
     )
   )
 
+;;Esta función validará de una forma más eficiente para el sistema si el set, esta siendo usado en un var-exp
+;;por lo que hace el rol de un if sin tener que usar ambientes
 (define evaluar-expresion-sin-set
   (lambda (exp amb)
     (cases expresion exp
