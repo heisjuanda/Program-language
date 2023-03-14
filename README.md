@@ -1,6 +1,6 @@
 # Program Language
-# Autors
 
+# Autors
 <div>
   <ol>
       <li>
@@ -15,8 +15,6 @@
     <li>
       Juan Felipe Jaramillo
     </li>
-    <li>
-    </li>
   </ol>
 </div>
 
@@ -24,7 +22,13 @@
 ```bash
 Final Project - Fundamentos de Lenguaje de Programación - FLP
 ```
+
 # About
+With this project we can investigate the core ideas of programming language design, such as syntax, semantics and grammar. We can build our own language structures and create a domain-specific language that suits the unique needs of the project using Racket's sophisticated macro system.
 
-With "Programming Language with Racket", authors can explore the fundamental concepts of programming language design, such as syntax, semantics, and grammar. By using Racket's powerful macro system, authors can define their own language constructs and create a domain-specific language that is tailored to their specific needs.
-
+# Functions
+```racket
+(define especificacion-lexica
+  '(//here we add the lexical specification)
+  )
+```
