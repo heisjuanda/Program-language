@@ -29,6 +29,6 @@ With this project we can investigate the core ideas of programming language desi
 # Functions
 ```racket
 (define especificacion-lexica
-  '(//here we add the lexical specification)
+  '(;;here we add the lexical specification)
   )
 ```
