@@ -103,5 +103,8 @@ With this project we can investigate the core ideas of programming language desi
 (interpretador)
 ```
 
-
+# Examples
+```JavaScript
+let casita= object{z=>1 m=>2} in casita end
+```
 
