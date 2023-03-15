@@ -103,8 +103,19 @@ With this project we can investigate the core ideas of programming language desi
 (interpretador)
 ```
 
-# Examples
+# Example
 ```JavaScript
-let casita= object{z=>1 m=>2} in casita end
+let  m= meth(s,n) +(n,1) end in apply m(7,6) end
+```
+```bash
+It'll return 7
+```
+
+# AST (Abstract Syntax Tree) 
+```JavaScript
+let casita= object{z=>1 m=> meth(s,n) +(n,1) end} in casita end
+```
+```bash
+It'll return #(struct:object-atributes z 1 #(struct:object-methods m #(struct:closure (s n) #(struct:exp-primitiva #(struct:sum-prim) (#(struct:id-exp n) #(struct:num-exp 1))) #(struct:ambiente-extendido-ref (x y z) #(4 2 5) #(struct:ambiente-extendido-ref (a b c) #(6 5 6) #(struct:ambiente-vacio)))) #(struct:object-empty)))
 ```
 
